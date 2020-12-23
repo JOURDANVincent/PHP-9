@@ -1,0 +1,220 @@
+html, body {
+    height: 100%;
+    background-color: #000 !important;
+    color: #aaa;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white !important;
+}
+
+#home {
+    max-height: 50px !important;
+}
+
+.bg1 {
+    background-color: #ff4d06 !important;
+}
+
+.bg2 {
+    background-color: #080808 !important;
+}
+
+.bg3 {
+    background-color: black !important;
+    background-color: #181818 !important;
+}
+
+/* .bg4 {
+    background-color: #0000 !important;
+    backdrop-filter: blur(8px) !important;
+} */
+
+.bg5 {
+    background-color:  rgb(219, 22, 22) !important;
+    box-sizing: border-box !important;
+}
+.bg5:hover {
+    border: 1px solid rgb(219, 22, 22) !important;
+    background-color: black !important;
+}
+
+.bg6 {
+    background-color:  black !important;
+}
+.bg6:hover {
+    border: 1px solid #aaa !important;
+    /* background-color: black !important; */
+}
+
+
+.bdc {
+    border: 1px solid #aaa8 !important;
+}
+
+
+
+.txt2 {
+    color: #aaa !important;
+}
+
+
+/* tableau */
+
+.table-dark {
+    background-color: #000 !important;
+    backdrop-filter: blur(8px) !important;
+    border: 1px solid #404040 !important;
+}
+
+td {
+    box-sizing: border-box !important;
+    min-height: 150px !important;
+}
+td:hover {
+    background-color: #101010 !important;
+    border: 1px solid #ff4d06 !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: #aaa !important;
+}
+
+.next-m:hover,
+.prev-m:hover {
+    color: white !important;
+    text-decoration: none !important;
+    background-color: #202020 !important;
+    border: 1px solid #ff4d06 !important;
+    border-radius: 5px !important;
+}
+
+.next-m:focus,
+.prev-m:focus {
+    color: white !important;
+    text-decoration: none !important;
+    background-color: #202020 !important;
+    border: 1px solid #ff4d06 !important;
+}
+
+
+
+/* Evenement du calendrier */
+
+.modal-header {
+    border-bottom: 1px solid rgb(219, 22, 22) !important;
+}
+
+.bgModal,
+.bgEventForm {
+    background-color: #80808010 !important;
+    backdrop-filter: blur(8px) !important;
+    /* border: none !important; */
+    box-shadow: none !important;
+    color: #fff !important;
+}
+
+.eventInside {
+    border: 1px solid rgb(219, 22, 22) !important;
+    background-color:  #f3121220 !important;
+    backdrop-filter: blur(7px) !important;
+}
+
+.fade {
+    backdrop-filter: blur(8px) !important;
+}
+
+option.bgOption {
+    color: black !important;
+}
+
+.selectEvent,
+.selectNewDate,
+.inputEventModal,
+.inputEvent {
+    background-color: #80808010 !important;
+    backdrop-filter: blur(8px) !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: #fff ;
+}
+.form-control.inputEvent {
+    color: #fff !important;
+}
+
+.selectNewDate {
+    border: 1px solid #404040 !important;
+}
+
+.addEventModal,
+.addEvent {
+    text-decoration: none !important;
+    background-color: #0000;
+    border: none !important;
+    color: rgb(219, 22, 22) !important;
+}
+.addEvent:hover {
+    border-radius: 3px !important;
+    border: 1px solid rgb(219, 22, 22) !important;
+}
+
+.day {
+    text-decoration: none !important;
+    background-color: #0000 !important;
+    border: none !important;
+    color: white !important;
+}
+.day:hover {
+    background-color: #101010 !important;
+}
+
+.modal-footer {
+    border-top: 1px solid rgb(219, 22, 22) !important;
+}
+
+
+
+input.btn {
+    border: 1px solid #404040 ;
+    background-color: #000 ;
+    color: white ;
+}
+input.btn:hover {
+    border: 1px solid rgb(219, 22, 22) !important;
+    background-color:  #f312123b !important;
+    backdrop-filter: blur(7px) !important;
+    color: white !important;
+}
+
+.bgWE {
+    /* border: 1px solid #ff4d06 !important; */
+    /* border: 1px solid black !important; */
+    /* color: #ff4d06; */
+    background-color: #080808 !important;
+}
+
+
+.bgEvent {
+    border: 1px solid rgb(219, 22, 22) !important;
+    background-color:  #f3121220 !important;
+    backdrop-filter: blur(7px) !important;
+}
+
+.bgBirthday {
+    border: 1px solid rgb(22, 42, 219) !important;
+    background-color:   rgba(22, 42, 219, 0.116) !important;
+    backdrop-filter: blur(7px) !important;
+}
+
+.bgRecall {
+    border: 1px solid rgb(22, 219, 32) !important;
+    background-color:  rgba(22, 219, 32, 0.137) !important;
+    backdrop-filter: blur(7px) !important;
+}
+
+.bgOther {
+    border: 1px solid rgb(219, 189, 22) !important;
+    background-color:  rgba(219, 189, 22, 0.13) !important;
+    backdrop-filter: blur(7px) !important;
+}
