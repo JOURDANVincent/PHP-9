@@ -8,8 +8,24 @@ h1, h2, h3, h4, h5, h6 {
     color: white !important;
 }
 
+h1 {
+    font-family: 'Bangers', cursive;
+    font-size: 60px;
+}
+
+
+#laManu {
+    max-height: 180px !important;
+}
+
 #home {
     max-height: 50px !important;
+    opacity: 0 !important;
+    /* display: none; */
+}
+#home:hover {
+    /* display: flex !important; */
+    opacity: 1 !important;
 }
 
 .bg1 {
@@ -182,7 +198,8 @@ input.btn {
 }
 input.btn:hover {
     border: 1px solid rgb(219, 22, 22) !important;
-    background-color:  #f312123b !important;
+    /* background-color:  #f312123b !important; */
+    background-color:  rgba(243, 18, 18, 0.103) !important;
     backdrop-filter: blur(7px) !important;
     color: white !important;
 }
@@ -216,5 +233,11 @@ input.btn:hover {
 .bgOther {
     border: 1px solid rgb(219, 189, 22) !important;
     background-color:  rgba(219, 189, 22, 0.13) !important;
+    backdrop-filter: blur(7px) !important;
+}
+
+.bgHoliday {
+    border: 1px solid rgb(143, 143, 143) !important;
+    background-color:   rgba(143, 143, 143, 0.158) !important;
     backdrop-filter: blur(7px) !important;
 }
