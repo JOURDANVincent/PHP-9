@@ -1,0 +1,26 @@
+#--------------------------------------------------
+# Répertoire : /C:\LaMANU\100-MyPropjects\myResponsiveCV-2/
+#--------------------------------------------------
+
+# Le serveur doit suivre les liens symboliques :
+Options +FollowSymlinks
+
+# Activation du module de réécriture d'URL :
+RewriteEngine on
+
+#--------------------------------------------------
+# Règles de réécriture d'URL :
+#--------------------------------------------------
+
+#--------------------------------------------------
+# exemple de règle :
+# RewriteRule ^([1-4]).html$   index.php?id=$1 [L]
+#--------------------------------------------------
+
+# from HTTP to HTTPS :
+RewriteCond %{SERVER_PORT} 80
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+
+
